@@ -21,6 +21,6 @@ export default {
         restart({ restart: [ '../static/**', ] }) // Restart server on static file change
     ],
 
-    base: process.env.VITE_BASE_PATH || "/text-3d-viewer",
+    base: process.env.VITE_BASE_PATH || "/text-3d-viewer-public",
 }
 
