@@ -24,3 +24,23 @@ export default {
     base: process.env.VITE_BASE_PATH || "/text-3d-viewer-public",
 }
 
+
+
+//Git INIT
+//git init
+//git add .
+// PASTE THE TEXT IN THE GITHIB REPOSITORY
+
+
+
+
+//Git UPDATE
+
+//git remote remove origin
+//git add .
+//git commit -m "Fix"
+//git push
+
+
+
+
