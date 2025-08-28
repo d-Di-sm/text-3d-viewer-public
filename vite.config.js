@@ -27,20 +27,38 @@ export default {
 
 
 //Git INIT
+
 //git init
 //git add .
 // PASTE THE TEXT IN THE GITHIB REPOSITORY
+//      git commit -m "first commit"
+//      git branch -M main
+//      git remote add origin https://github.com/d-Di-sm/prueba.git
+//      git push -u origin main
+
+
+
+//Git REMOVE ORIGIN
+
+//git remote remove origin
 
 
 
 
 //Git UPDATE
 
-//git remote remove origin
 //git add .
 //git commit -m "Fix"
 //git push
 
+
+
+//Git RECONECT
+//git init
+//git commit -m "fix N_X"
+//git remote add origin https://github.com/d-Di-sm/text-3d-viewer-public.git
+//git branch -M main
+//git push -u origin main
 
 
 
