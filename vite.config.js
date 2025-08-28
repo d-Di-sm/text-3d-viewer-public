@@ -1,4 +1,6 @@
+import { defineConfig } from 'vite'
 import restart from 'vite-plugin-restart'
+
 
 export default {
     root: 'src/', // Sources files (typically where index.html is)
@@ -18,4 +20,7 @@ export default {
     [
         restart({ restart: [ '../static/**', ] }) // Restart server on static file change
     ],
+
+    base: process.env.VITE_BASE_PATH || "/text-3d-viewer",
 }
+
